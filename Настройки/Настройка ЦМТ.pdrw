@@ -4452,12 +4452,12 @@
         <AssemblyForAllObjects>N</AssemblyForAllObjects>
         <AsseblyType>40</AsseblyType>
         <SelectedViews>
-        AQ==
+        BQ==
         </SelectedViews>
         <ViewOffset>10</ViewOffset>
         <ShowCuts>N</ShowCuts>
         <ModelViewParams>
-          <ViewStyle>3</ViewStyle>
+          <ViewStyle>2</ViewStyle>
           <HideLinesColor>$00C0C0C0</HideLinesColor>
           <HideLinesStyle>0</HideLinesStyle>
           <ShowGabaritSizes>Y</ShowGabaritSizes>
@@ -4467,7 +4467,7 @@
           <FastDrawStyle>0</FastDrawStyle>
           <FastenerScale>1</FastenerScale>
           <PositionsEnabled>Y</PositionsEnabled>
-          <PositionsType>2</PositionsType>
+          <PositionsType>0</PositionsType>
           <PositionsForFast>N</PositionsForFast>
           <PositionsForDetails>Y</PositionsForDetails>
           <PositionsForProfile>N</PositionsForProfile>
@@ -4518,21 +4518,7 @@
         <SpecifFormatPanels>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>octDesignation</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -4546,14 +4532,63 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octDetail</UID>
+            <UID>octMaterial</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octThickness</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octGotovayaDetal</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octCount</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octOblicovkaLLWW</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octPaz</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octMaterial</UID>
+            <UID>octDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octDetail</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -4567,13 +4602,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octThickness</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octThicknessOblic</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -4581,16 +4609,9 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octCount</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octZagotovka</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4611,7 +4632,7 @@
           <Item>
             <UID>octDetalBezOblic</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4630,13 +4651,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octGotovayaDetal</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octGotovayaDetalL</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -4651,13 +4665,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octPaz</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octOblicovkeL1Art</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -4667,7 +4674,7 @@
           <Item>
             <UID>octOblicovkaL1</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4681,7 +4688,7 @@
           <Item>
             <UID>octOblicovkaL2</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4695,7 +4702,7 @@
           <Item>
             <UID>octOblicovkaW1</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4708,13 +4715,6 @@
           </Item>
           <Item>
             <UID>octOblicovkaW2</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>octOblicovkaLLWW</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -4758,21 +4758,21 @@
           <Item>
             <UID>ctDescription</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>octIsRectangle</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4780,21 +4780,7 @@
         <SpecifFormatProfiles>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>octDesignation</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -4808,14 +4794,63 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octDetail</UID>
+            <UID>octMaterial</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octThickness</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octGotovayaDetal</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octCount</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octOblicovkaLLWW</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octPaz</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octMaterial</UID>
+            <UID>octDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octDetail</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -4829,13 +4864,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octThickness</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octThicknessOblic</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -4843,16 +4871,9 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octCount</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octZagotovka</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4873,7 +4894,7 @@
           <Item>
             <UID>octDetalBezOblic</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4892,13 +4913,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octGotovayaDetal</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octGotovayaDetalL</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -4913,13 +4927,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octPaz</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octOblicovkeL1Art</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -4929,7 +4936,7 @@
           <Item>
             <UID>octOblicovkaL1</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4943,7 +4950,7 @@
           <Item>
             <UID>octOblicovkaL2</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4957,7 +4964,7 @@
           <Item>
             <UID>octOblicovkaW1</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -4970,13 +4977,6 @@
           </Item>
           <Item>
             <UID>octOblicovkaW2</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>octOblicovkaLLWW</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -5020,21 +5020,21 @@
           <Item>
             <UID>ctDescription</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>octIsRectangle</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -5042,21 +5042,7 @@
         <SpecifFormatAsmFurn>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actDesignation</UID>
+            <UID>actArticul</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -5070,23 +5056,37 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>actDetail</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actArticul</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>actCount</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actPosition</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDetail</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -5100,7 +5100,7 @@
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -5108,21 +5108,7 @@
         <SpecifFormatFurnAsmUnit>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>actPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actDesignation</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -5132,6 +5118,27 @@
             <UID>actName</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actCount</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -5150,13 +5157,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>actCount</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>ctDescription</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -5166,7 +5166,7 @@
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -5768,21 +5768,7 @@
         <SpecifFormatAsmFurn>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actDesignation</UID>
+            <UID>actArticul</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -5796,23 +5782,37 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>actDetail</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actArticul</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>actCount</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actPosition</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDetail</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -5826,7 +5826,7 @@
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -5834,21 +5834,7 @@
         <SpecifFormatFurnAsmUnit>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>actPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actDesignation</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -5858,6 +5844,27 @@
             <UID>actName</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actCount</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -5876,13 +5883,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>actCount</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>ctDescription</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -5892,7 +5892,7 @@
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -5970,14 +5970,56 @@
         <SpecifFormatPanels>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
+            <UID>octPosition</UID>
             <ShortCaption/>
-            <Visible>N</Visible>
+            <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octPosition</UID>
+            <UID>octName</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octMaterial</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octThickness</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octGotovayaDetal</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octCount</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octOblicovkaLLWW</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octPaz</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -5991,9 +6033,9 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octName</UID>
+            <UID>ctNumber</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6005,28 +6047,7 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octMaterial</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>octCount</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octArticul</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>octThickness</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -6042,7 +6063,7 @@
           <Item>
             <UID>octZagotovka</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6063,7 +6084,7 @@
           <Item>
             <UID>octDetalBezOblic</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6082,13 +6103,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octGotovayaDetal</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octGotovayaDetalL</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -6103,13 +6117,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octPaz</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octOblicovkeL1Art</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -6119,7 +6126,7 @@
           <Item>
             <UID>octOblicovkaL1</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6133,7 +6140,7 @@
           <Item>
             <UID>octOblicovkaL2</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6147,7 +6154,7 @@
           <Item>
             <UID>octOblicovkaW1</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6160,13 +6167,6 @@
           </Item>
           <Item>
             <UID>octOblicovkaW2</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>octOblicovkaLLWW</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -6210,21 +6210,21 @@
           <Item>
             <UID>ctDescription</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>octIsRectangle</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6232,21 +6232,7 @@
         <SpecifFormatProfiles>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>octDesignation</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -6260,14 +6246,63 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octDetail</UID>
+            <UID>octMaterial</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octThickness</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octGotovayaDetal</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octCount</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octOblicovkaLLWW</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octPaz</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octMaterial</UID>
+            <UID>octDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>octDetail</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -6281,13 +6316,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octThickness</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octThicknessOblic</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -6295,16 +6323,9 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octCount</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octZagotovka</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6325,7 +6346,7 @@
           <Item>
             <UID>octDetalBezOblic</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6344,13 +6365,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octGotovayaDetal</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octGotovayaDetalL</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -6365,13 +6379,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>octPaz</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>octOblicovkeL1Art</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -6381,7 +6388,7 @@
           <Item>
             <UID>octOblicovkaL1</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6395,7 +6402,7 @@
           <Item>
             <UID>octOblicovkaL2</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6409,7 +6416,7 @@
           <Item>
             <UID>octOblicovkaW1</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6422,13 +6429,6 @@
           </Item>
           <Item>
             <UID>octOblicovkaW2</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>octOblicovkaLLWW</UID>
             <ShortCaption/>
             <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -6472,21 +6472,21 @@
           <Item>
             <UID>ctDescription</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>octIsRectangle</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6494,21 +6494,7 @@
         <SpecifFormatAsmFurn>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actDesignation</UID>
+            <UID>actArticul</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -6522,23 +6508,37 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>actDetail</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actArticul</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>actCount</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actPosition</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDetail</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6552,7 +6552,7 @@
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6560,21 +6560,7 @@
         <SpecifFormatFurnAsmUnit>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>actPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actDesignation</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -6584,6 +6570,27 @@
             <UID>actName</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actCount</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
             <isHideEmpty>N</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6602,13 +6609,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>actCount</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>ctDescription</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -6618,7 +6618,7 @@
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -6656,10 +6656,10 @@
         </SpecifFormatAddMat>
       </AssemblyOnBlock>
       <Specification>
-        <ForAssembly>Y</ForAssembly>
-        <ForAssemblyUnit>Y</ForAssemblyUnit>
-        <ForFastener>Y</ForFastener>
-        <ForAsmFast>Y</ForAsmFast>
+        <ForAssembly>N</ForAssembly>
+        <ForAssemblyUnit>N</ForAssemblyUnit>
+        <ForFastener>N</ForFastener>
+        <ForAsmFast>N</ForAsmFast>
         <ForAddMat>N</ForAddMat>
         <IsSeparateFacing>N</IsSeparateFacing>
         <SortType>1</SortType>
@@ -6943,7 +6943,7 @@
           <Item>
             <UID>octIsRectangle</UID>
             <ShortCaption/>
-            <Visible>N</Visible>
+            <Visible>Y</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -7017,21 +7017,7 @@
         <OutInfoFormatAssemblyUnit>
           <FormatVersion>3</FormatVersion>
           <Item>
-            <UID>ctNumber</UID>
-            <ShortCaption/>
-            <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>actPosition</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
-            <UID>actDesignation</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
@@ -7042,6 +7028,27 @@
             <ShortCaption/>
             <Visible>Y</Visible>
             <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actCount</UID>
+            <ShortCaption/>
+            <Visible>Y</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>ctNumber</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>N</isHideEmpty>
+            <Width>0</Width>
+          </Item>
+          <Item>
+            <UID>actDesignation</UID>
+            <ShortCaption/>
+            <Visible>N</Visible>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
@@ -7059,13 +7066,6 @@
             <Width>0</Width>
           </Item>
           <Item>
-            <UID>actCount</UID>
-            <ShortCaption/>
-            <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
-            <Width>0</Width>
-          </Item>
-          <Item>
             <UID>ctDescription</UID>
             <ShortCaption/>
             <Visible>N</Visible>
@@ -7075,7 +7075,7 @@
           <Item>
             <UID>amctAddMat</UID>
             <ShortCaption/>
-            <Visible>Y</Visible>
+            <Visible>N</Visible>
             <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
@@ -7093,35 +7093,35 @@
             <UID>bctPosition</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>bctDesignation</UID>
             <ShortCaption/>
             <Visible>N</Visible>
-            <isHideEmpty>N</isHideEmpty>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>bctMaterial</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>bctSign</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>bctCount</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
@@ -7135,28 +7135,28 @@
             <UID>bctLength</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>bctWidth</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>bctThickness</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
           <Item>
             <UID>ctDescription</UID>
             <ShortCaption/>
             <Visible>Y</Visible>
-            <isHideEmpty>N</isHideEmpty>
+            <isHideEmpty>Y</isHideEmpty>
             <Width>0</Width>
           </Item>
         </OutInfoFormatSpecifButts>
@@ -8058,11 +8058,61 @@
         <ShortName/>
       </HoleSymbol>
     </FastSymbol>
+    <FastSymbol>
+      <Name>Опора регулируемая 10-15 мм</Name>
+      <FragmentFileName/>
+      <HoleSymbol>
+        <Diameter>15</Diameter>
+        <Depth>16</Depth>
+        <Blind>N</Blind>
+        <ShortName/>
+      </HoleSymbol>
+    </FastSymbol>
+    <FastSymbol>
+      <Name>LIBRA H1, навес6 34200 10 ZN</Name>
+      <FragmentFileName/>
+    </FastSymbol>
+    <FastSymbol>
+      <Name>LIBRA WP1, планка для навесов6 34500 10 ZN</Name>
+      <FragmentFileName/>
+    </FastSymbol>
+    <FastSymbol>
+      <Name>LIBRA CC2, заглушка, белый6 34610 10 WH</Name>
+      <FragmentFileName/>
+    </FastSymbol>
+    <FastSymbol>
+      <Name>5x14</Name>
+      <FragmentFileName/>
+      <HoleSymbol>
+        <Diameter>5</Diameter>
+        <Depth>14</Depth>
+        <Blind>Y</Blind>
+        <ShortName/>
+      </HoleSymbol>
+    </FastSymbol>
+    <FastSymbol>
+      <Name>LIBRA H11, заглушка, белый6 34907 20 AB</Name>
+      <FragmentFileName/>
+    </FastSymbol>
+    <FastSymbol>
+      <Name>LIBRA WP13, планка для навесов63450180ZN</Name>
+      <FragmentFileName/>
+    </FastSymbol>
+    <FastSymbol>
+      <Name>Полкодержатель стекло 8 мм, П-обр.14242967</Name>
+      <FragmentFileName/>
+      <HoleSymbol>
+        <Diameter>3</Diameter>
+        <Depth>3</Depth>
+        <Blind>Y</Blind>
+        <ShortName/>
+      </HoleSymbol>
+    </FastSymbol>
   </FastSymbols>
   <CutSymbols/>
   <SchemeAssembly>
     <SchemeForBlocks>N</SchemeForBlocks>
-    <SaveToLibrary>N</SaveToLibrary>
+    <SaveToLibrary>Y</SaveToLibrary>
     <SpreadX>0</SpreadX>
     <SpreadY>0</SpreadY>
     <SpreadZ>0</SpreadZ>
@@ -8098,7 +8148,7 @@
       <PositionsForDetails>Y</PositionsForDetails>
       <PositionsForProfile>Y</PositionsForProfile>
       <PositionsForAsm>Y</PositionsForAsm>
-      <PositionsDeleteDuplicates>N</PositionsDeleteDuplicates>
+      <PositionsDeleteDuplicates>Y</PositionsDeleteDuplicates>
       <PositionsExceptions/>
       <PositionsOnAxonometry>N</PositionsOnAxonometry>
     </ModelViewParams>
@@ -8614,7 +8664,7 @@
       <Item>
         <UID>actPosition</UID>
         <ShortCaption/>
-        <Visible>N</Visible>
+        <Visible>Y</Visible>
         <isHideEmpty>N</isHideEmpty>
         <Width>0</Width>
       </Item>
@@ -8628,7 +8678,7 @@
       <Item>
         <UID>actArticul</UID>
         <ShortCaption/>
-        <Visible>Y</Visible>
+        <Visible>N</Visible>
         <isHideEmpty>N</isHideEmpty>
         <Width>0</Width>
       </Item>
