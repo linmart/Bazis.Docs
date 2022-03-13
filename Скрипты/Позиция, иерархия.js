@@ -9,11 +9,12 @@ function AddNameBlock(block, level) {
     }
     if (level == 1) block.ArtPos = block.Designation.slice(0,2);
     if (level == 2) block.ArtPos = block.Designation.slice(0,5);
+    system.log("block.ArtPos: " + block.ArtPos + ", level: " + level);
 }
 
 function InToList(obj, level) {
     for (var i = 0; i < obj.Count; i++) {
-        objChild = obj.Objects[i];
+        objChild = obj.Objects[i];      
         if ((objChild instanceof TFurnBlock) || (objChild instanceof TLayer3D)) {
             if (objChild instanceof TFurnBlock) {
                 AddNameBlock(objChild, level);                
@@ -22,7 +23,7 @@ function InToList(obj, level) {
         }
         if (obj[i] instanceof TFurnPanel) {
             AddNamePanel(obj[i].AsPanel);
-        }
+        }               
     }
 }
 
@@ -37,5 +38,5 @@ for (var i = 0; i < Model.Count; i++) {
     }
     if (obj instanceof TFurnPanel) {
         AddNamePanel(obj.AsPanel);
-    }
+    }    
 }
